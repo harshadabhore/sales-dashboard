@@ -15,5 +15,5 @@ df_clean = df.drop_duplicates()
 print(df_clean)
 
 3. Convert date formats to a consistent type (e.g., dd-mm-yyyy).
-4. 
-df['Date'] = df['Date'].dt.strftime('%d-%m-%Y')
+
+4. df['Date'] = df['Date'].dt.strftime('%d-%m-%Y')
